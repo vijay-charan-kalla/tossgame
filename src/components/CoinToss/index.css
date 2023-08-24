@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  background-image: linear-gradient(to right,#f9d423,#e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  color: rgb(136, 86, 21);
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 450;
+  margin: 0px;
+}
+.img {
+  height: 120px;
+  width: 120px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width:768px) {
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+  .result-container{
+      flex-direction: row;
+  }
+  .card-container{
+      width: 40%;
+  }
+}
+.button {
+  background-color: #e2a139;
+  border: 0px;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: rgb(136, 86, 21);
+  font-weight: 450;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.h-t-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
